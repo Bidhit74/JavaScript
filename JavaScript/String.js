@@ -4,7 +4,7 @@
 // let repoCount = 50;
 // console.log(`My Name is ${name} and my repo count is ${repoCount}`);
 
-// let username = new String("Laxmi-Narayan");
+let username = new String("Laxmi-Narayan");
 // console.log(username.length);
 // console.log(username.toLowerCase());
 // console.log(username.toUpperCase());
@@ -17,9 +17,12 @@
 // let anotherString = username.slice(-10, 5);
 // console.log(anotherString);
 
+// let newStr = "   Bidhit    "
+// console.log(newStr);
+// console.log(newStr.trim());
 
 // string bulit-in method in javascript
-// let str = new String("Narayan");
+let str = new String("Narayan");
 
 // 1. at(index): its return character on passed index, on index absense its assume 0.
 // console.log(str.at(5)); //'a'
