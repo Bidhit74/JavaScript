@@ -4,7 +4,7 @@
 // let repoCount = 50;
 // console.log(`My Name is ${name} and my repo count is ${repoCount}`);
 
-let username = new String("Laxmi-Narayan");
+// let username = new String("Laxmi-Narayan");
 // console.log(username.length);
 // console.log(username.toLowerCase());
 // console.log(username.toUpperCase());
@@ -25,19 +25,19 @@ let username = new String("Laxmi-Narayan");
 let str = new String("Narayan");
 
 // 1. at(index): its return character on passed index, on index absense its assume 0.
-// console.log(str.at(5)); //'a'
+// console.log(str.at(0)); //'a'
 
 // 2. charAt(index): its return character on passed index, on index absense its assume 0.
 // console.log(str.charAt(5)); //'a'/
 
 // 3. charCodeAt(): its return character unicode on passed index, on index absense its assume 0.
-// console.log(str.charCodeAt(5)); //'a' == 97(in unicode)
+// console.log(str.charCodeAt(6)); //'a' == 97(in unicode)
 
 // 4. charPointAt(): its return character unicode on passed index, on index absense its assume 0.
 // console.log(str.charPointAt(5)); //'a' == 97(in unicode)
 
 // 5. concat(): its take string, character or number, then append on last and return new string with passed argument.
-// console.log(str.concat(' Coder')); //Namaste Coder
+console.log(str.concat(' Coder')); //Namaste Coder
 
 // 6. constructor(): its used to initialized instanace variable of class.
 // class MyClass {
