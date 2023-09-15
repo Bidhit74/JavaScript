@@ -28,7 +28,7 @@
 // of():        its return new array of passed element.
 
 
-let myArr = [0, 1, 2, 3 ,4 ]
+// let myArr = [0, 1, 2, 3 ,4 ]
 // myArr.push(8)
 // myArr.pop()
 // myArr.unshift(10)
@@ -48,13 +48,41 @@ let myArr = [0, 1, 2, 3 ,4 ]
 
 // Splice vs Slice
 
-console.log("A",myArr);
+// console.log("A",myArr);
 
-const myn1 = myArr.slice(1,3)
+// const myn1 = myArr.slice(1,3)
 
-console.log(myn1);
-console.log("B",myArr);
+// console.log(myn1);
+// console.log("B",myArr);
 
-const myn2 = myArr.splice(1,3)
-console.log(myn2);
-console.log("C",myArr);
+// const myn2 = myArr.splice(1,3)
+// console.log(myn2);
+// console.log("C",myArr);
+
+// let car = ['Alto', 'Baleno', 'Creta', 'Ertiga', 'Indigo'];
+// let supercar = ['Supra', 'Prsche', 'Maclaren'];
+
+// car.push(supercar)
+// console.log(car);
+// console.log(car[5]);
+// console.log(car[5][1]);
+
+// const allCar = car.concat(supercar)
+// console.log(allCar);
+
+// const allNewCar = [...car, ...supercar]
+// console.log(allNewCar);
+
+// let myArr = [1, 2, 3, [4, 5], 6, [7, 8, [9, [10, 11], 12], 13], 15];
+// let newMyArr = myArr.flat(Infinity);
+// console.log(myArr);
+// console.log(newMyArr);
+
+console.log(Array.isArray("Bidhit"));
+console.log(Array.from("Bidhit"));
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+
+console.log(Array.of(score1,score2,score3));
